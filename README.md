@@ -21,8 +21,6 @@
 
 ## Overview
 
-This repository contains the hardware configurations, ROS2 workspaces, and machine learning pipelines for an autonomous, SLAM-navigated rover designed to map indoor radio frequency (RF) environments. 
-
 Instead of relying on basic signal strength (RSSI), the system utilizes a **HackRF One** Software Defined Radio (SDR) and a **Google Coral Edge TPU** (M.2) to capture, process, and semantically classify broadband RF protocols (Wi-Fi, BLE, Zigbee, LoRa etc.) in real-time via a custom INT8-quantized Convolutional Neural Network (CNN).
 
 ## Key Features
