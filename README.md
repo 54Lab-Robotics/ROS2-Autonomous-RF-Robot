@@ -33,7 +33,7 @@ Instead of relying on basic signal strength (RSSI), the system utilizes a **Hack
 
 ## System Architecture
 
-### Hardware Stack
+### Current Hardware Stack
 | Component | Description |
 | :--- | :--- |
 | **Compute** | Raspberry Pi 5 (1GB) |
