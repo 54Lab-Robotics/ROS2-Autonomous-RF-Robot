@@ -3,7 +3,7 @@
 # Autonomous RF-Mapping & Cognitive Radio Rover
 
 **High-resolution electromagnetic spatial analysis powered by ROS2, SDR, and Edge AI.** <br>
-*Developed by 54Lab for **Jugend forscht 2026/2027***
+*Developed for **Jugend forscht 2026/2027***
 
 <!-- Badges -->
 [![ROS2](https://img.shields.io/badge/ROS2-Jazzy-22314E?style=flat-square&logo=ros)](https://docs.ros.org/en/jazzy/)
