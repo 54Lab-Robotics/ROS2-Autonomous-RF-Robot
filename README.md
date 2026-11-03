@@ -14,8 +14,8 @@
 <br>
 
 <!-- Hero Images: Render and 360 GIF side by side -->
-<img src="docs/assets/render.png" alt="Rover CAD Render" width="48%" />
-<img src="docs/assets/360-spin.gif" alt="Rover 360 Spin" width="48%" />
+<img src="assets/render.png" alt="Rover CAD Render" width="48%" />
+<img src="assets/360-spin.gif" alt="Rover 360 Spin" width="48%" />
 
 </div>
 
