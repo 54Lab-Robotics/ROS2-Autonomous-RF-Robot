@@ -57,12 +57,19 @@ Instead of relying on basic signal strength (RSSI), the system utilizes a **Hack
 | **Rev. 2 Physical Prototype** | ![60%](https://geps.dev/progress/60) |  **In Progress:** Full CAD & electronics layout finished. |
 | **RF Signal Classification (CNN Training)** | ![10%](https://geps.dev/progress/10) |  **Early Stage:** Pipeline architecture set up; dataset recording awaits calibrated RF/UWB hardware. |
  
-### Sponsors & Partners
+## Sponsors & Partners
 This project is being developed for the Jugend forscht competition. We are actively looking for hardware partners. A huge thank you to the companies supporting the next generation of engineers:
 
 ## Contact
 
+**Team:**
 - **Ben Bluhm** – Lead Developer
 - **Laura Übele** – Developer
+- **Email:** [hello@54lab.dev](mailto:hello@54lab.dev)
 
-**Email:** [hello@54lab.dev](mailto:hello@54lab.dev)
+**Get in Touch & Follow the Build:**
+
+[![Email](https://img.shields.io/badge/Email-hello%4054lab.dev-blue?style=for-the-badge&logo=minutemailer&logoColor=white)](mailto:hello@54lab.dev)
+[![Instagram](https://img.shields.io/badge/Instagram-%4054lab.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/54lab.dev/)
+
+*Follow [@54lab.dev](https://www.instagram.com/54lab.dev/) on Instagram for regular build logs, 3D printing updates, and live testing videos!*
