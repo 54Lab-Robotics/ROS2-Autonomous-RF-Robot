@@ -48,6 +48,15 @@ Instead of relying on basic signal strength (RSSI), the system utilizes a **Hack
 - **Signal Processing:** GNU Radio, SciPy, NumPy (SigMF standard)
 - **Machine Learning:** TensorFlow 2, Keras, Edge TPU Compiler
 
+### Project Status & Roadmap (Work in Progress)
+
+| Component / Milestone | Progress | Current Status & Next Steps |
+| :--- | :--- | :--- |
+| **Rev. 1 Physical Prototype** | ![100%](https://geps.dev/progress/100) |  **Completed:** Initial chassis build and mechanical validation. |
+| **Autonomous Navigation (Nav2 & SLAM)** | ![95%](https://geps.dev/progress/95) |  **Finalizing:** 2D LiDAR SLAM & Nav2 stack ready, still problems with odometry |
+| **Rev. 2 Physical Prototype** | ![60%](https://geps.dev/progress/60) |  **In Progress:** Full CAD & electronics layout finished. |
+| **RF Signal Classification (CNN Training)** | ![10%](https://geps.dev/progress/10) |  **Early Stage:** Pipeline architecture set up; dataset recording awaits calibrated RF/UWB hardware. |
+ 
 ### Sponsors & Partners
 This project is being developed for the Jugend forscht competition. We are actively looking for hardware partners. A huge thank you to the companies supporting the next generation of engineers:
 
