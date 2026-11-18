@@ -14,7 +14,7 @@
 <br>
 
 <!-- Rev 0.2 Hero Render -->
-<img src="assets/render_v02.png" alt="Rover Rev 0.2 CAD Render with OAK-D Lite and TPU Bumper" width="97%" />
+<img src="assets/render_v02.png" alt="Rover Rev 0.2 CAD Render with OAK-D Lite and TPU Bumper" width="60%" />
 
 <br><br>
 
@@ -44,7 +44,7 @@ With **Revision 0.2 (r0.2)**, the rover integrates a **Luxonis OAK-D Lite** ster
 | Component | Description |
 | :--- | :--- |
 | **Compute** | Raspberry Pi 5 (Target upgrade: NVIDIA Jetson Orin Nano Super) |
-| **Edge Accelerators** | Google Coral M.2 TPU (PCIe) + Intel Movidius Myriad X VPU (on OAK-D Lite) |
+| **Edge Accelerators** | Google Coral M.2 TPU (PCIe) |
 | **RF Frontend** | HackRF One + UWB Omni-Antenna |
 | **Spatial & Vision Sensors** | RPLidar C1 + Luxonis OAK-D Lite (Stereo Depth) + BNO085 (9-DOF IMU) |
 | **Drive & Motor Control** | Custom ESP32-S3 + TMC2209 Driver Board, NEMA 14 Steppers with Metal GT2 Pulleys |
