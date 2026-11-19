@@ -37,10 +37,10 @@
 #define PIN_RX 3
 #define PIN_TX 2
 
-#define L_STEP 13
-#define L_DIR  1
-#define R_STEP 4
-#define R_DIR  5
+#define L_STEP 4
+#define L_DIR  5
+#define R_STEP 13
+#define R_DIR  1
 
 #define I2C0_SDA 7   // Wire:  Left AS5600 (0x36) + INA226 (0x40)
 #define I2C0_SCL 6
@@ -49,8 +49,8 @@
 
 #define FAN_PIN 15
 
-#define INVERT_L_MOTOR true
-#define INVERT_R_MOTOR false
+#define INVERT_L_MOTOR false
+#define INVERT_R_MOTOR true
 
 #define INVERT_L_ENCODER true
 #define INVERT_R_ENCODER false
@@ -520,7 +520,7 @@ bool create_entities() {
   RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
   RCCHECK(rclc_node_init_default(&node, "diff_rover_rtos_node", "", &support));
 
-  RCCHECK(rclc_publisher_init_best_effort(
+  RCCHECK(rclc_publisher_init_default(
     &odom_pub, &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(nav_msgs, msg, Odometry), "odom_wh"));
 
@@ -704,7 +704,7 @@ size_t uros_custom_transport_read(struct uxrCustomTransport* transport, uint8_t*
       if (read_bytes > 0) {
         delayMicroseconds(40);
       } else {
-        taskYIELD();
+        vTaskDelay(pdMS_TO_TICKS(1));
       }
     }
   }
