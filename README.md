@@ -60,10 +60,10 @@ Our physical r0.2 prototype currently runs on a Raspberry Pi 5 (1 GB). Even when
 | Component / Milestone | Progress | Current Status & Next Steps |
 | :--- | :--- | :--- |
 | **Rev. 0.1 Physical Prototype** | ![100%](https://geps.dev/progress/100) | **Completed:** Initial chassis build and mechanical validation. |
-| **Rev. 0.2 Physical Prototype** | ![100%](https://geps.dev/progress/85) | **Completed:** Integrated OAK-D Lite mount, custom TPU 95A camera bumper, and upgraded to metal GT2 pulleys to eliminate backlash. |
-| **Rev. 0.3 CAD Prototype** | ![100%](https://geps.dev/progress/95) | Redesigned the CAD to fit an NVIDIA Jetson Orin Nano, raised the main compute deck by 5 mm for proper fan clearance, and cleaned up all CAD assembly naming and structure. |
+| **Rev. 0.2 Physical Prototype** | ![100%](https://geps.dev/progress/85) | **Completed:** Integrated OAK-D Lite mount, custom TPU 95A camera bumper and upgraded to metal GT2 pulleys to eliminate backlash. |
+| **Rev. 0.3 CAD Prototype** | ![100%](https://geps.dev/progress/95) | Redesigned the CAD to fit an NVIDIA Jetson Orin Nano, raised the main compute deck by 5 mm for proper fan clearance and cleaned up all CAD assembly naming and structure. |
 | **Autonomous Navigation (Nav2 & SLAM)** | ![85%](https://geps.dev/progress/95) | **Finalizing:** 2D LiDAR SLAM, DepthAI integration & sub-0.2ms telemetry link validated; fine-tuning odometry with metal pulleys. |
-| **RF Signal Classification (CNN & Calibration)** | ![10%](https://geps.dev/progress/20) | **In Progress:** Pipeline architecture set up; 360° in-situ antenna calibration routine using 2.4 GHz CW reference source underway. |
+| **RF Signal Classification (CNN & Calibration)** | ![10%](https://geps.dev/progress/20) | **In Progress:** Pipeline architecture set up; 360° antenna calibration routine using 2.4 GHz BLE Beacon reference source underway |
 
 
 ## Bill of Materials (BOM)
@@ -81,11 +81,11 @@ The full BOM with direct links to every part is available in [`bom.csv`](./bom.c
 | TMC2209 Stepper Motor Driver | 2 | Already owned | 0 € |
 | NEMA 14 Stepper Motor (42 mm) | 2 | Already owned | 0 € |
 | AS5600 Magnetic Encoder | 2 | Already owned | 0 € |
-| Metal GT2 Pulleys & Timing Belts (1.77:1) | 1 set | Already owned | 0 € |
+| Metal GT2 Pulleys & Timing Belts (1.77:1) | 2 | Already owned | 0 € |
 | 50 mm TPE Wheels | 2 | Already owned | 0 € |
 | USB-C PD Powerbank (20V/15V) + PD Trigger Board | 1 | Already owned | 0 € |
 | 5V 10A Buck Converter | 1 | Already owned | 0 € |
-| 3D-Printed Chassis (PETG, PA12-CF, TPU 95A) & M3/M2.5 Hardware | 1 set | Already owned | 0 € |
+| 3D-Printed Chassis (PETG, PA12-CF, TPU 95A) & M3/M2.5 Hardware | 2 | Already owned | 0 € |
 | **Total Requested from Grant** | | | **~$550** |
 
 ---
