@@ -1,0 +1,17 @@
+Part Name,Quantity,Unit Price (USD),Status,Link,Secondary Link,Notes
+NVIDIA Jetson Orin Nano Super Developer Kit (8GB),1,399.00,Grant,https://www.sparkfun.com/nvidia-jetson-orin-nano-developer-kit.html,,"EU distributors (e.g. Reichelt) are currently ~650-750 EUR and out of stock until mid-Dec, so importing from SparkFun is cheaper and faster."
+US Shipping + 19% German Import VAT & Brokerage (est.),1,150.00,Grant,,,"Estimated international shipping, 19% import VAT, and carrier brokerage for the Jetson."
+HackRF One SDR + UWB Omni-Antenna,1,148.25,Already owned,https://www.hgeek.com/products/hamgeek-hackrf-one-r9-v2-0-0-1mhz-6ghz-software-defined-radio-platform-gps-simulator-w-shell-4-antennas?variant=44144457842853,https://www.amazon.de/dp/B0DV547LZM,
+RPLidar C1,1,86.70,Already owned,https://www.amazon.de/dp/B0CNXLJJ61,,
+Luxonis OAK-D Lite,1,269.00,Already owned,https://shop.luxonis.com/products/oak-d-lite-1,,"Bought used for 110 USD"
+BNO085 9-DOF IMU,1,29.50,Already owned,https://www.adafruit.com/product/4754,,
+ESP32-S3 Zero,1,17.43,Already owned,https://www.amazon.de/dp/B0G2XKK6P6,,
+TMC2209 Stepper Driver,2,10.89,Already owned,https://www.amazon.de/dp/B0D6R7YCRT,,
+NEMA 14 Stepper Motor 42mm,2,10.36,Already owned,https://www.omc-stepperonline.com/de/nema-14-bipolar-1-8deg-23ncm-32-6oz-in-0-5a-7-5v-35x35x42mm-4-draehte-14hs17-0504s,,
+AS5600 Magnetic Encoder,2,8.93,Already owned,https://www.amazon.de/dp/B0B778L7T3,,
+18 Teeth Metal GT2 Pulley + 142mm GT2 Belt,2,20.15,Already owned,https://www.amazon.de/dp/B0BM47DQTD,https://www.amazon.de/dp/B0GXDYRY1R,
+50mm TPE Wheels,2,1.62,Already owned,https://www.priostahl.de/ersatzrollen-grau-50mm-tpe-50mm,,
+USB-C PD Powerbank (65W/20V),1,54.50,Already owned,https://www.amazon.de/dp/B0CXDXP8VR,,
+5V 10A Buck Converter,1,21.80,Already owned,https://www.amazon.de/dp/B09B7ZD7K3,,
+PETG / PA12-CF / TPU 95A Filament & Fasteners,1,100.00,Already owned,,,"Estimated total for filament and M2.5/M3 hardware"
+Total Grant Cost (USD),,549.00,Grant,,,"Jetson ($399) + est. shipping/import VAT ($150)"
