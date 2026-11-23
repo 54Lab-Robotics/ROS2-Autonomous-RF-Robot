@@ -120,8 +120,9 @@ Power on via the USB-C PD powerbank → launch ROS2 SLAM/Nav2 + HackRF capture n
 ## Repository Structure
 
 ```text
-├── cad/           # Source assembly (.f3d / .step) (r0.3)
-├── electronics/   # Wiring diagram and schematics (if applicable)
+├── cad/           # Source assembly (.f3z / .step)
+├── electronics/   # Wiring diagram and schematics
 ├── firmware/      # ESP32-S3 motor/encoder firmware
 ├── ros2_ws/       # Code from our ROS2 Workspace 
 └── bom.csv        # Full Bill of Materials with links
+```
