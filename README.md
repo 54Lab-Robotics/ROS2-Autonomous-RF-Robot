@@ -7,18 +7,18 @@
 
 [![ROS2](https://img.shields.io/badge/ROS2-Jazzy-22314E?style=flat-square&logo=ros)](https://docs.ros.org/en/jazzy/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Edge AI](https://img.shields.io/badge/Edge_AI-Google_Coral-F9AB00?style=flat-square&logo=google)](https://coral.ai/)
-[![Hardware](https://img.shields.io/badge/Revision-r0.2-2ea44f?style=flat-square)]()
+[![Edge AI](https://img.shields.io/badge/Jetson-Orin-nano)]()
+[![Hardware](https://img.shields.io/badge/Revision-r0.3.1-2ea44f?style=flat-square)]()
 
-<br>
-
-<img src="assets/render_v02.png" alt="Rover Rev 0.2 CAD Render with OAK-D Lite and TPU Bumper" width="60%" />
-
+**r0.2/r0.3.x** (newest)
 <br><br>
+<img src="assets/render_v02.png" alt="Rover Rev 0.2 CAD Render with OAK-D Lite and TPU Bumper" width="48%" />
+<img src="assets/cad-screen.png" alt="Rover Rev 0.3 CAD Picture with Jetson Orin Nano" width="48%" />
 
+**r0.1** (legacy)
+<br><br>
 <img src="assets/render.png" alt="Rover Rev 0.1 CAD Render" width="48%" />
 <img src="assets/360-spin.gif" alt="Rover 360 Spin" width="48%" />
-
 </div>
 
 ## What is this?
@@ -65,6 +65,14 @@ Our physical r0.2 prototype currently runs on a Raspberry Pi 5 (1 GB). Even when
 | **Autonomous Navigation (Nav2 & SLAM)** | ![85%](https://geps.dev/progress/95) | **Finalizing:** 2D LiDAR SLAM, DepthAI integration & sub-0.2ms telemetry link validated; fine-tuning odometry with metal pulleys. |
 | **RF Signal Classification (CNN & Calibration)** | ![10%](https://geps.dev/progress/20) | **In Progress:** Pipeline architecture set up; 360° antenna calibration routine using 2.4 GHz BLE Beacon reference source underway |
 
+### Electronics & Wiring
+Instead of a fabricated PCB, the ESP32-S3 + TMC2209 motor/encoder controller is hand wired on a 5×7 cm perfboard based on our EasyEDA schematic.
+
+<div align="center">
+  <img src="electronics/schematic.png" alt="EasyEDA Schematic" width="30%" />
+  <img src="electronics/pcb.jpeg" alt="Hand wired Perfboard" width="30%" />
+</div>
+
 
 ## Bill of Materials (BOM)
 
@@ -73,22 +81,25 @@ The full BOM with direct links to every part is available in [`bom.csv`](./bom.c
 | Item | Qty | Status | Est. Cost (Grant) |
 | :--- | :---: | :--- | :---: |
 | **NVIDIA Jetson Orin Nano Super Developer Kit (8 GB)** | 1 | **Needed (Grant) + shipping/taxes** | ~$550 |
-| HackRF One + UWB Omni-Antenna | 1 | Already owned | 0 € |
-| RPLidar C1 | 1 | Already owned | 0 € |
-| Luxonis OAK-D Lite | 1 | Already owned (used) | 0 € |
-| BNO085 9-DOF IMU | 1 | Already owned | 0 € |
-| ESP32-S3 Zero | 1 | Already owned | 0 € |
-| TMC2209 Stepper Motor Driver | 2 | Already owned | 0 € |
-| NEMA 14 Stepper Motor (42 mm) | 2 | Already owned | 0 € |
-| AS5600 Magnetic Encoder | 2 | Already owned | 0 € |
-| Metal GT2 Pulleys & Timing Belts (1.77:1) | 2 | Already owned | 0 € |
-| 50 mm TPE Wheels | 2 | Already owned | 0 € |
-| USB-C PD Powerbank (20V/15V) + PD Trigger Board | 1 | Already owned | 0 € |
-| 5V 10A Buck Converter | 1 | Already owned | 0 € |
-| 3D-Printed Chassis (PETG, PA12-CF, TPU 95A) & M3/M2.5 Hardware | 2 | Already owned | 0 € |
+| HackRF One + UWB Omni-Antenna | 1 | Already owned | 0 $ |
+| RPLidar C1 | 1 | Already owned | 0 $ |
+| Luxonis OAK-D Lite | 1 | Already owned (used) | 0 $ |
+| BNO085 9-DOF IMU | 1 | Already owned | 0 $ |
+| ESP32-S3 Zero | 1 | Already owned | 0 $ |
+| TMC2209 Stepper Motor Driver | 2 | Already owned | 0 $ |
+| NEMA 14 Stepper Motor (42 mm) | 2 | Already owned | 0 $ |
+| AS5600 Magnetic Encoder | 2 | Already owned | 0 $ |
+| Metal GT2 Pulleys & Timing Belts (1.77:1) | 2 | Already owned | 0 $ |
+| 50 mm TPE Wheels | 2 | Already owned | 0 $ |
+| USB-C PD Powerbank (20V/15V) + PD Trigger Board | 1 | Already owned | 0 $ |
+| 5V 10A Buck Converter | 1 | Already owned | 0 $ |
+| 3D-Printed Chassis (PETG, PA12-CF, TPU 95A) & M3/M2.5 Hardware/Threaded inserts | 2 | Already owned | 0 $ |
 | **Total Requested from Grant** | | | **~$550** |
 
 ---
+
+### How to use it
+Power on via the USB-C PD powerbank → launch ROS2 SLAM/Nav2 + HackRF capture node → rover maps the room and logs classified RF detections → export RF heatmap
 
 ## Contact
 
