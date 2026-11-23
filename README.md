@@ -68,15 +68,15 @@ Our physical r0.2 prototype currently runs on a Raspberry Pi 5 (1 GB). Even when
 ### Electronics & Wiring
 Instead of a fabricated PCB, the ESP32-S3 + TMC2209 motor/encoder controller is hand wired on a 5×7 cm perfboard based on our EasyEDA schematic.
 
-<div align="center">
-  <img src="electronics/schematic.png" alt="EasyEDA Schematic" width="30%" />
-  <img src="electronics/pcb.jpeg" alt="Hand wired Perfboard" width="30%" />
+<div align="left">
+  <img src="electronics/schematic.png" alt="EasyEDA Schematic" width="61%" />
+  <img src="electronics/pcb.jpeg" alt="Hand wired Perfboard" width="32%" />
 </div>
 
 
 ## Bill of Materials (BOM)
 
-The full BOM with direct links to every part is available in [`bom.csv`](./bom.csv). Nearly all mechanical, drive, and sensor components are already owned and built into the r0.2 prototype—the grant request covers only the compute upgrade needed for r0.3.
+The full BOM with direct links to every part is available in [`bom.csv`](./bom.csv). Nearly all mechanical, drive and sensor components are already owned and built into the r0.2 prototype - the grant request covers only the compute upgrade needed for r0.3.
 
 | Item | Qty | Status | Est. Cost (Grant) |
 | :--- | :---: | :--- | :---: |
